@@ -11,9 +11,6 @@ $result_Search_Link = [];
 $getKeyword = $keyword;
 
 
-
-
-
 $servername = "localhost";
 $username = "root";
 $password = "";

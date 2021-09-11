@@ -54,10 +54,9 @@ try {
     }
 
     // Thêm bảng Links cho user
-
-    $url_link_rand =  substr(md5(rand($data['url'])), 0, 5);
+   $url_link_rand =  bin2hex(random_bytes(20));
     $sql_stmt  = "INSERT INTO `links`(`user_id`, `type`, `url`, `settings`, `datetime` ) 
-    VALUES ({$user_id}, '{$data['type']}','{$url_link_rand}',
+    VALUES ({$user_id}, '{$data['type']}','{$url_link_rand }',
      '{$data['settings']}', '{$datetime}')";
 
     $pdo->exec($sql_stmt);
