@@ -9,8 +9,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="content-language" content="<?= \Altum\Language::$language_code  ?>" />
-    <link href="https://assets.website-files.com/604b35876a71cbbd84768e36/604e34f2690126aa59d2f621_Bold-Favicon.png" rel="shortcut icon" type="image/x-icon" />
-    <link href="https://assets.website-files.com/604b35876a71cbbd84768e36/604e355b69012608e9d2f7a3_Bold-Webclip.png" rel="apple-touch-icon" />
+  
 
 
     <?php if (\Altum\Meta::$description) : ?>
@@ -30,12 +29,7 @@
         <?php endforeach ?>
     <?php endif ?>
 
-    
-
-    <link href="https://assets.website-files.com/604b35876a71cbbd84768e36/css/az-bold.webflow.5cbac129e.css" rel="stylesheet" type="text/css" />
-
-    <!-- App Css-->
-    <link href="<?= ASSETS_FULL_URL . 'css/app.min.css' ?>" id="app-style" rel="stylesheet" type="text/css" />
+ 
 
 
     <link rel="alternate" href="<?= SITE_URL . \Altum\Routing\Router::$original_request ?>" hreflang="x-default" />
@@ -51,14 +45,6 @@
         <link href="<?= UPLOADS_FULL_URL . 'favicon/' . settings()->favicon ?>" rel="shortcut icon" />
     <?php endif ?>
 
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="<?= ASSETS_FULL_URL ?>images/favicon.ico">
-
-    <!-- Icons Css -->
-    <link href="<?= ASSETS_FULL_URL ?>css/icons.min.css" rel="stylesheet" type="text/css" />
-    <!-- App Css-->
-    <link href="<?= ASSETS_FULL_URL ?>css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
     <link href="<?= ASSETS_FULL_URL . 'css/' . \Altum\ThemeStyle::get_file() . '?v=' . PRODUCT_CODE ?>" id="css_theme_style" rel="stylesheet" media="screen,print">
     <?php foreach (['custom.css', 'link-custom.css', 'animate.min.css'] as $file) : ?>
@@ -130,10 +116,7 @@
 
     <?= \Altum\Event::get_content('javascript') ?>
 
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=604b35876a71cbbd84768e36" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="<?= ASSETS_FULL_URL ?>js/JSmain/JStranslate/js.js"></script>
-    <script src="<?= ASSETS_FULL_URL ?>js/JSmain/JS/webflow.js"></script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+    
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 

@@ -34,6 +34,23 @@
 </script>
 <link href="https://assets.website-files.com/604b35876a71cbbd84768e36/604e34f2690126aa59d2f621_Bold-Favicon.png" rel="shortcut icon" type="image/x-icon" />
 <link href="https://assets.website-files.com/604b35876a71cbbd84768e36/604e355b69012608e9d2f7a3_Bold-Webclip.png" rel="apple-touch-icon" />
+
+
+<link href="https://assets.website-files.com/604b35876a71cbbd84768e36/css/az-bold.webflow.5cbac129e.css" rel="stylesheet" type="text/css" />
+
+<!-- App Css-->
+<link href="<?= ASSETS_FULL_URL . 'css/app.min.css' ?>" id="app-style" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+<!-- App favicon -->
+<link rel="shortcut icon" href="<?= ASSETS_FULL_URL ?>images/favicon.ico">
+
+<!-- Icons Css -->
+<link href="<?= ASSETS_FULL_URL ?>css/icons.min.css" rel="stylesheet" type="text/css" />
+<!-- App Css-->
+<link href="<?= ASSETS_FULL_URL ?>css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+<link href="https://assets.website-files.com/604b35876a71cbbd84768e36/604e34f2690126aa59d2f621_Bold-Favicon.png" rel="shortcut icon" type="image/x-icon" />
+<link href="https://assets.website-files.com/604b35876a71cbbd84768e36/604e355b69012608e9d2f7a3_Bold-Webclip.png" rel="apple-touch-icon" />
 <link rel="stylesheet" href="<?= ASSETS_FULL_URL . 'css/mainCSS.css' ?>">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=vietnamese" rel="stylesheet">
 
@@ -69,7 +86,6 @@
     .navbar-item a:hover::before {
         width: 100%;
     }
-
 </style>
 
 <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="fixed-nav w-nav">
@@ -83,7 +99,7 @@
                     <?= language()->affiliate->menu ?></a></li>
         <?php endif ?>
         <?php if (\Altum\Middlewares\Authentication::check()) : ?>
-        
+
             <li class="nav-link  inline-block navbar-item">
                 <a href="<?= url('dashboard') ?>"> <?= language()->dashboard->menu ?></a>
             </li>
